@@ -1,0 +1,9 @@
+class testProgram():
+  
+  def __init__(self):
+    self.say_hello()
+    
+  def say_hello(self):
+    print "Hello!"
+    
+testProgram()
