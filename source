@@ -2,8 +2,12 @@ class testProgram():
   
   def __init__(self):
     self.say_hello()
+    self.response()
     
   def say_hello(self):
     print "Hello!"
+    
+  def response(self):
+    print raw_input("Response?")
     
 testProgram()
